@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+h1 {
+    background-color: aqua;
+    font-size: 3em;
+}
+
+p {
+    font-style: italic;
+}
+
+#paragrafo_2 {
+    font-weight: bold;
+    background-color: rgba(255, 255, 0, 0.473);
+}
+
+body > ul {
+    font-family: serif;
+}
+
+ul > ul {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(255, 255, 0, 0.151);
+    font-style: italic;
+}
+
+table {
+    font-family: sans-serif;
+}
+
+#cabecalho {
+    font-weight: bolder;
+    background-color: grey;
+}
+
+#impar {
+    background-color: rgba(128, 128, 128, 0.61);
+}
+
+#par {
+    background-color: rgba(128, 128, 128, 0.253);
+}

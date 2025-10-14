@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+}
+
+h1 {
+    background-color: lightblue;
+    font-size: 3em;
+}
+
+#medio {
+    font-style: italic;
+    font-size: medium;
+}
+
+#maior {
+    font-size: larger;
+    font-weight: bold;
+    background-color: lightyellow;
+}
+
+#menor {
+    font-size: small;
+}
+
+#destaque {
+    font-style: italic;
+    background-color: rgba(128, 128, 128, 0.726);
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.15em;
+}
+
+#cabecalho {
+    background-color: rgba(128, 128, 128, 0.836);
+}
+
+#impar {
+    background-color: rgba(128, 128, 128, 0.342);
+}
+
+#par {
+    background-color: rgba(128, 128, 128, 0.158);
+}
