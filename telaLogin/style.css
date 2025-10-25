@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/bckimg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    border-radius: 7%;
+    height: fit-content;
+    width: 350px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    backdrop-filter: blur(120px);
+}
+
+.container h1 {
+    font-size: 50px;
+    margin: 20px;
+}
+
+.input-box input{
+    text-indent: 5px;
+    background-color: transparent;
+    outline: none;
+    border: 1.5px solid rgb(255, 255, 255);
+    font-size: 16px;
+    margin: 0px 5px 5px;
+    color: #fff;
+    height: 35px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+.input-box input::placeholder {
+    color: rgba(255, 255, 255, 0.677)
+}
+
+.remember-forgot {
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 18px;
+    vertical-align: middle;
+}
+
+.remember-forgot input {
+    align-items: center;
+    accent-color: white;
+}
+
+a {
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    background-color: black;
+    margin: 10px 5px 0px 5px;
+    width: 320px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+button:hover {
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    background-color: white;
+    margin: 10px 5px 0px 5px;
+    width: 320px;
+    height: 35px;
+    border-radius: 10px;
+}
