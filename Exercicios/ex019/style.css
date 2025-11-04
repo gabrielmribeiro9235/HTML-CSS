@@ -18,3 +18,20 @@ h1 {
 h2 {
     color: rgb(73, 109, 71);
 }
+
+.basico {
+    color: green;
+    font-weight: bold;
+}
+
+.intermediario {
+    color: yellow;
+}
+
+.avancado {
+    color: red;
+}
+
+.destaque {
+    background-color: rgba(208, 208, 59, 0.766);
+}
